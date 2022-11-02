@@ -1,0 +1,8 @@
+.btn-primary {
+	background-color: $info;
+	border: none;
+
+	&:hover {
+		background-color: $secondary;
+	}
+}

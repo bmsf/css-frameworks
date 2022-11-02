@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/dist/css/styles.css" />
+		<script
+			src="https://kit.fontawesome.com/3b57eb3f32.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="container-fluid py-0 py-md-4 px-md-5">
+				<div class="d-flex align-items-center">
+					<img
+						src="./assets/meg.jpeg"
+						alt="Profile picture of user"
+						class="rounded-circle me-2"
+						width="50"
+						height="50"
+					/>
+					<p>Hello, <span class="fw-bold">Bjørn-Magnus</span></p>
+				</div>
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link" href="#">Pricing</a>
+					<a
+						class="nav-link disabled"
+						href="#"
+						tabindex="-1"
+						aria-disabled="true"
+						>Disabled</a
+					>
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary px-3">
+						<i class="fa-regular fa fa-bell pe-2"></i>
+						5
+					</button>
+					<button type="button" class="btn btn-primary rounded-circle">
+						<i class="fa-solid fa fa-plus"></i>
+					</button>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<section class="container">
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label"
+						>Title of post</label
+					>
+					<input
+						type="email"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="Title"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label"
+						>What's on your mind?</label
+					>
+					<textarea
+						class="form-control"
+						id="exampleFormControlTextarea1"
+						rows="3"
+					></textarea>
+					<div class="mb-3">
+						<label for="formFile" class="form-label"
+							>Default file input example</label
+						>
+						<input class="form-control" type="file" id="formFile" />
+					</div>
+					<button type="submit" class="btn btn-primary mb-4">Share</button>
+				</div>
+			</section>
+
+			<section class="container mt-5">
+				<div class="rounded p-4 gap-3 mb-3 row">
+					<button type="button" class="btn text-white bg-black col btn-lg p-4">
+						UI/UX
+					</button>
+					<button class="btn text-white bg-black col btn-lg p-4">
+						Webdesign
+					</button>
+					<button class="btn text-white bg-black col btn-lg p-4">Mobile</button>
+					<button class="btn text-white bg-black col btn-lg p-4">
+						Architecture
+					</button>
+				</div>
+			</section>
+			<form class="form-inline px-4 container">
+				<input class="form-control mr-sm-2" placeholder="Search" />
+			</form>
+			<section class="container mt-3">
+				<div class="row p-4 gap-3">
+					<div class="col">
+						<div class="card col text-white bg-secondary mb-3">
+							<div class="card-header">Post</div>
+							<div class="card-body">
+								<h4 class="card-title">Post</h4>
+								<p class="card-text">
+									Some quick example text to build on the card title and make up
+									the bulk of the card's content.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card col text-white bg-secondary mb-3">
+							<div class="card-header">Post</div>
+							<div class="card-body">
+								<h4 class="card-title">Post</h4>
+								<p class="card-text">
+									Some quick example text to build on the card title and make up
+									the bulk of the card's content.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row p-4 gap-3">
+					<div class="col">
+						<div class="card col text-white bg-secondary mb-3">
+							<div class="card-header">Post</div>
+							<div class="card-body">
+								<h4 class="card-title">Post</h4>
+								<p class="card-text">
+									Some quick example text to build on the card title and make up
+									the bulk of the card's content.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card col text-white bg-secondary mb-3">
+							<div class="card-header">Post</div>
+							<div class="card-body">
+								<h4 class="card-title">Post</h4>
+								<p class="card-text">
+									Some quick example text to build on the card title and make up
+									the bulk of the card's content.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

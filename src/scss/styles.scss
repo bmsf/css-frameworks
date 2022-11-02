@@ -1,14 +1,13 @@
-@import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
-
-$primary: #f2f2f2;
-$secondary: #2f3235;
-$success: #203f59;
-$info: #8c7472;
-$warning: #011640;
-$black: #0d0d0d;
+@import './partials/variables';
+@import './partials/buttons';
+@import './partials/nav';
 
 p {
 	margin: 0;
 	padding: 0;
+}
+
+.login-form {
+	width: 20rem;
 }
