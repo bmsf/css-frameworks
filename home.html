@@ -12,7 +12,7 @@
 		></script>
 	</head>
 	<body>
-		<nav class="navbar">
+		<nav class="navbar navbar-expand-md">
 			<div class="container-fluid py-0 py-md-4 px-md-5">
 				<div class="d-flex align-items-center">
 					<img
@@ -24,31 +24,38 @@
 					/>
 					<p>Hello, <span class="fw-bold">Bjørn-Magnus</span></p>
 				</div>
-				<div class="navbar-nav">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-					<a class="nav-link" href="#">Features</a>
-					<a class="nav-link" href="#">Pricing</a>
-					<a
-						class="nav-link disabled"
-						href="#"
-						tabindex="-1"
-						aria-disabled="true"
-						>Disabled</a
-					>
+				<div class="collapse navbar-collapse gap-3 justify-content-center">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="./home.html"
+							>Home</a
+						>
+						<a class="nav-link" href="./profile.html">Profile</a>
+					</div>
 				</div>
 				<div>
 					<button type="button" class="btn btn-primary px-3">
 						<i class="fa-regular fa fa-bell pe-2"></i>
 						5
 					</button>
-					<button type="button" class="btn btn-primary rounded-circle">
-						<i class="fa-solid fa fa-plus"></i>
+					<button
+						type="button"
+						class="navbar-toggler btn btn-primary"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
 					</button>
+					<!-- <button type="button" class="btn btn-primary rounded-circle">
+						<i class="fa-solid fa fa-plus"></i>
+					</button> -->
 				</div>
 			</div>
 		</nav>
 		<main>
-			<section class="container">
+			<section class="container mt-3">
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label"
 						>Title of post</label
@@ -65,14 +72,11 @@
 						>What's on your mind?</label
 					>
 					<textarea
-						class="form-control"
+						class="form-control mb-3"
 						id="exampleFormControlTextarea1"
 						rows="3"
 					></textarea>
 					<div class="mb-3">
-						<label for="formFile" class="form-label"
-							>Default file input example</label
-						>
 						<input class="form-control" type="file" id="formFile" />
 					</div>
 					<button type="submit" class="btn btn-primary mb-4">Share</button>
@@ -81,16 +85,10 @@
 
 			<section class="container mt-5">
 				<div class="rounded p-4 gap-3 mb-3 row">
-					<button type="button" class="btn text-white bg-black col btn-lg p-4">
-						UI/UX
-					</button>
-					<button class="btn text-white bg-black col btn-lg p-4">
-						Webdesign
-					</button>
-					<button class="btn text-white bg-black col btn-lg p-4">Mobile</button>
-					<button class="btn text-white bg-black col btn-lg p-4">
-						Architecture
-					</button>
+					<div class="btn text-white bg-black col btn-lg p-4">UI/UX</div>
+					<div class="btn text-white bg-black col btn-lg p-4">Webdesign</div>
+					<div class="btn text-white bg-black col btn-lg p-4">Mobile</div>
+					<div class="btn text-white bg-black col btn-lg p-4">Architecture</div>
 				</div>
 			</section>
 			<form class="form-inline px-4 container">
