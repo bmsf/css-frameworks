@@ -1,2 +1,22 @@
-@import 'variables';
+@import './partials/variables';
+@import './partials/buttons';
+@import './partials/nav';
+
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.login-form {
+	width: 20rem;
+}
+
+.hamburger {
+	color: $primary;
+}
+
+.online-friend {
+	width: 50px;
+}
